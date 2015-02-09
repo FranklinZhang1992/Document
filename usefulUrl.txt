@@ -1,0 +1,5 @@
+Hibernate4之JPA规范配置详解
+http://daizhenghua.good.blog.163.com/blog/static/10528772620132212525922/
+
+初识Hibernate Search
+http://blog.csdn.net/dm_vincent/article/details/40649203
