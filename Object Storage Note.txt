@@ -1,0 +1,13 @@
+Openstack Object Storage features:
+1. Large objects
+2. Schedule objects for deletion
+3. Auto-extract archive files
+4. Bulk delete
+5. Container synchronization
+6. Container quotas
+7. Temporary URL middleware
+8. Form POST middleware
+9. Create static website
+
+启用/info ： curl https://storage.clouddrive.com/info
+然后通过/info 这个request来了解哪些功能开启了
