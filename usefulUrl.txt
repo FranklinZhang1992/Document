@@ -5,4 +5,6 @@ http://daizhenghua.good.blog.163.com/blog/static/10528772620132212525922/
 http://blog.csdn.net/dm_vincent/article/details/40649203
 
 OpenStack Object Storage API v1 Reference
+https://wiki.openstack.org/wiki/Main_Page
+http://docs.openstack.org/admin-guide-cloud/content/ch_admin-openstack-object-storage.html
 http://docs.openstack.org/api/openstack-object-storage/1.0/content/
