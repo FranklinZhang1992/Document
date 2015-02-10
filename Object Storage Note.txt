@@ -11,3 +11,17 @@ Openstack Object Storage features:
 
 启用/info ： curl https://storage.clouddrive.com/info
 然后通过/info 这个request来了解哪些功能开启了
+
+
+
+Replication
+1. 被设计来在系统面临一个临时的错误情况（比如网络中断等）的时候能够保持一致状态。
+2. Replication将本地数据与远程的拷贝相比较来确保他们都包含了最新的版本。
+3. Object Replication使用一个hash list来快速比较每个分区部分。Container 和account replication使用一个hashes和shared high water marks的组合。
+4. Replication的更新是基于推送的。Account和container push missing rcords over HTTP or rsync whole database files。
+5. The replicator也保证了数据从系统上移除。当一个item（object, container, or account）被删除了，一个tombstone作为最新版本被设置在此item上。Thje replicator将看到这个tombstone并且保证这个item从整个系统移除。
+
+Updaters
+1. 有些时候container或account的数据不能被立即更新。这经常在failure scenarios或periods of high load。
+2. 如果一次更新失败，这个更新就会在文件系统中进入本地队列，然后updater会处理这些fail的更新。
+3. 
