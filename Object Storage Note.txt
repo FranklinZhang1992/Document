@@ -19,9 +19,19 @@ Replication
 2. Replication将本地数据与远程的拷贝相比较来确保他们都包含了最新的版本。
 3. Object Replication使用一个hash list来快速比较每个分区部分。Container 和account replication使用一个hashes和shared high water marks的组合。
 4. Replication的更新是基于推送的。Account和container push missing rcords over HTTP or rsync whole database files。
-5. The replicator也保证了数据从系统上移除。当一个item（object, container, or account）被删除了，一个tombstone作为最新版本被设置在此item上。Thje replicator将看到这个tombstone并且保证这个item从整个系统移除。
+5. The replicator也保证了数据从系统上移除。当一个item（object, container, or account）被删除了，一个tombstone作为最新版本被设置在此item上。Thje replicator
+   将看到这个tombstone并且保证这个item从整个系统移除。
 
 Updaters
 1. 有些时候container或account的数据不能被立即更新。这经常在failure scenarios或periods of high load。
 2. 如果一次更新失败，这个更新就会在文件系统中进入本地队列，然后updater会处理这些fail的更新。
-3. 
+3. 这就是最终的一致性窗口将最可能come in to play的地方。
+   例如：假设一个container server是最新的并且一个新的object被放到系统中，这个object将会在proxy server以一个success的响应到客户端的时候立即能够被读到。
+   但是，container server还没有更新object表单，所以这个更新将被放入队列以供之后更新。因此Container表单将不会立即包含这个object。
+4. 实际上，这个一致性窗口（consistency window）只是和updater运行的频率一样大，甚至可能不会被注意到，因为proxy server将route listing requests到第一个响应的
+   Container server。
+5. 负载下的server可能不是接下来的清单请求的server——另外两个复制可能会处理这个清单。
+
+Auditors（审计）
+1. Auditors抓取本地server来检测objects，containers和accounts的完整性。
+2. 如果发现corruption（腐败），文件就会被隔离，replication就会用另外一份复制文件来覆盖这个损坏的文件。如果发现了其他错误，他们就会被logged（记录）。
