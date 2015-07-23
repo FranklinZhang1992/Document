@@ -1,0 +1,34 @@
+# 准备分区
+sudo fdisk -l
+sudo fdisk /dev/sdb
+n——创建新分区
+回车——默认为主分区
+回车——默认起始扇区
+回车——默认结束扇区
+t——修改分区格式
+8e——修改分区格式为8e（LVM的分区格式）
+w——写入分区表
+
+（sdc同上）
+
+# 创建物理卷
+sudo pvcreate /dev/sdb1
+sudo partprobe——使分区表立即生效无需重启
+sudo pvdisplay——展示当前所有pv
+
+（同上创建sdc1）
+
+# 创建VG磁盘卷
+sudo vgcreate VG1 /dev/sdb1 /dev/sdc1
+sudo vgdisplay——查看VG
+
+# 创建LV逻辑卷
+sudo lvcreate -L 3G -n drbd1 VG1——创建了一个名字为drbd1，容量大小是3G的分区，其中：-L：指定LV的大小 -n：指定LV的名。VG1：表示从这个VG中划分LV
+sudo lvdisplay——展示当前LV
+
+# LV格式化及挂载
+sudo mkfs -t ext3 /dev/VG1/drbd1——LV进行格式化（使用mksf进行格式化操作）， 然后LV才能存储资
+sudo mkdir /mnt/lvmbackup——将格式化后的LV分区挂载到指定的目录下，就可以像普通目录一样存储数据了
+sudo mount /dev/VG1/drbd1 /mnt/lvmbackup/——将LV挂载在指定目录
+df -h                      ——挂载之后，可以看到此LV的容量
+df -m /mnt/lvmbackup/      ——挂载之后，可以看到此LV的容量（皆可看）
