@@ -1,0 +1,6 @@
+{
+	"draw_white_space": "all",
+	"font_face": "Ubuntu Mono",
+	"font_size": 15,
+	"trim_trailing_white_space_on_save": true
+}
