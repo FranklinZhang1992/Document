@@ -1,0 +1,16 @@
+# Compile
+wget git autoconf automake gettext-devel hivex-devel augeas-devel readline-devel libxml2-devel createrepo glibc-static libselinux-devel fuse-devel pcre-devel libvirt-devel po4a gperf flex bison libconfig-devel xz-devel ocaml ocaml-findlib-devel ocaml-gettext-devel lua-devel libacl-devel libcap-devel yajl-devel systemd-devel bash-completion gtk2-devel python-devel ruby-devel rubygem-rake rubygem-minitest.noarch ruby-irb java-1.7.0-openjdk java-1.7.0-openjdk-devel jpackage-utils glib2-devel gobject-introspection-devel gjs gfs2-utils lsof rsync strace
+perl-XML-XPath.noarch perl-Sys-Virt perl-Test-Pod perl-Test-Pod-Coverage.noarch perl-local-lib.noarch perl-libintl perl-Tk-devel.x86_64
+
+libguestfs-devel ncurses-devel supermin gperf flex-devel bison pcre-devel augeas-devel ocaml-libguestfs ocaml ocaml-findlib ocaml-gettext ocaml-gettext-devel libvirt libvirt-devel flex gtk2-devel gcc libtool
+
+supermin should be set to supermin5 by default
+mv /bin/supermin /bin/supermin4
+ln -s /bin/supermin5 /bin/supermin
+
+And the latest version of automake is 1.13 in CentOS7.1, we need to build automake 1.14 for it as libguestfs with Redhat patches requires automake 1.14
+
+# Running
+sudo yum install supermin5 netpbm-progs icoutils libosinfo fuse attr cryptsetup dosfstools gdisk genisoimage hivex lsscsi lzop mdadm psmisc scrub syslinux syslinux-extlinux yajl qemu-kvm libvirt-daemon-kvm fuse-libs hexedit libconfig gtk2
+
+
