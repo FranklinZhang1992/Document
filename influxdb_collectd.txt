@@ -81,27 +81,27 @@
     </Plugin>
 ## InfluxDB SQL example:
   1. Get VM disk read
-    SELECT derivative("value", 10s) / 10 FROM "virt_read" WHERE "host" = 'centos7.0' AND "type" = 'disk_octets' AND "type_instance" = 'vda'
+    SELECT derivative("value", 10s) / 10 AS "value" FROM "virt_read" WHERE "host" = 'centos7.0' AND "type" = 'disk_octets' AND "type_instance" = 'vda'
   2. Get VM disk write
-    SELECT derivative("value", 10s) / 10 FROM "virt_write" WHERE "host" = 'centos7.0' AND "type" = 'disk_octets' AND "type_instance" = 'vda'
+    SELECT derivative("value", 10s) / 10 AS "value" FROM "virt_write" WHERE "host" = 'centos7.0' AND "type" = 'disk_octets' AND "type_instance" = 'vda'
   3. Get VM network receive
-    SELECT derivative("value", 10s) / 10 * 8 FROM "virt_rx" WHERE "host" = 'centos7.0' AND "type" = 'if_octets' AND "type_instance" = 'vnet0'
+    SELECT derivative("value", 10s) / 10 * 8 AS "value" FROM "virt_rx" WHERE "host" = 'centos7.0' AND "type" = 'if_octets' AND "type_instance" = 'vnet0'
   4. Get VM network transfer
-    SELECT derivative("value", 10s) / 10 * 8 FROM "virt_tx" WHERE "host" = 'centos7.0' AND "type" = 'if_octets' AND "type_instance" = 'vnet0'
+    SELECT derivative("value", 10s) / 10 * 8 AS "value" FROM "virt_tx" WHERE "host" = 'centos7.0' AND "type" = 'if_octets' AND "type_instance" = 'vnet0'
   5. Get VM cpu usage
-    SELECT derivative("value", 10s)  / 100000000 FROM "virt_value" WHERE "host" = 'centos7.0' AND "type" = 'virt_vcpu' AND "type_instance" = '0'
+    SELECT derivative("value", 10s)  / 100000000 AS "value" FROM "virt_value" WHERE "host" = 'centos7.0' AND "type" = 'virt_vcpu' AND "type_instance" = '0'
     [Description]
     We cannot get cpu usage from libvirt directly, we can only get the cpuTime, in order to get cpu usage, we can follow the steps below:
     5.1 cpu_time_diff = cpuTimenow — cpuTimet seconds ago
     5.2 %CPU = 100 × cpu_time_diff / (t × nr_cores × 109)
   6. Get PM disk read
-    SELECT derivative("value", 10s) / 10 FROM "disk_read" WHERE "host" = 'localhost' AND "instance" = 'sda' AND "type" = 'disk_octets'
+    SELECT derivative("value", 10s) / 10 AS "value" FROM "disk_read" WHERE "host" = 'localhost' AND "instance" = 'sda' AND "type" = 'disk_octets'
   7. Get PM disk write
-    SELECT derivative("value", 10s) / 10 FROM "disk_write" WHERE "host" = 'localhost' AND "instance" = 'sda' AND "type" = 'disk_octets'
+    SELECT derivative("value", 10s) / 10 AS "value" FROM "disk_write" WHERE "host" = 'localhost' AND "instance" = 'sda' AND "type" = 'disk_octets'
   8. Get PM network receive
-    SELECT derivative("value", 10s) / 10 * 8 FROM "interface_rx" WHERE "host" = 'localhost' AND "instance" = 'eno16777736' AND "type" = 'if_octets'
+    SELECT derivative("value", 10s) / 10 * 8 AS "value" FROM "interface_rx" WHERE "host" = 'localhost' AND "instance" = 'eno16777736' AND "type" = 'if_octets'
   9. Get PM network transfer
-    SELECT derivative("value", 10s) / 10 * 8 FROM "interface_tx" WHERE "host" = 'localhost' AND "instance" = 'eno16777736' AND "type" = 'if_octets'
+    SELECT derivative("value", 10s) / 10 * 8 AS "value" FROM "interface_tx" WHERE "host" = 'localhost' AND "instance" = 'eno16777736' AND "type" = 'if_octets'
   10. Get PM cpu usage
     SELECT "value" FROM "cpu_value" WHERE "host" = 'localhost' AND "type" = 'percent' AND "type_instance" = 'active'
   11. Get PM memory usage
