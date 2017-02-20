@@ -1,0 +1,108 @@
+# Influxdb + collectd to collect physical machine & virtual performance statistics
+## Reference
+  1. collectd
+    official doc: http://collectd.org/documentation/manpages/collectd.conf.5.shtml
+  2. influxdb
+    official doc: https://docs.influxdata.com/influxdb/v1.2/introduction/installation/
+  3. grafana
+    official doc: http://docs.grafana.org/installation/rpm/
+## Setup
+  1. collectd
+    yum install collectd collectd-virt
+    service collectd start
+  2. influxdb
+    cat <<EOF | sudo tee /etc/yum.repos.d/influxdb.repo
+    [influxdb]
+    name = InfluxDB Repository - RHEL \$releasever
+    baseurl = https://repos.influxdata.com/rhel/\$releasever/\$basearch/stable
+    enabled = 1
+    gpgcheck = 1
+    gpgkey = https://repos.influxdata.com/influxdb.key
+    EOF
+    yum install influxdb
+    service influxd start
+  3. grafana
+    yum install https://grafanarel.s3.amazonaws.com/builds/grafana-4.1.2-1486989747.x86_64.rpm
+    service grafana-server start
+## Influxdb config (/etc/influxdb/influxdb.conf):
+  1. Enable admin web:
+    [admin]
+      enabled = true
+  2. Enable collect plugin:
+    [[collectd]]
+      enabled = true
+      bind-address = ":25826" # the bind address
+      database = "collectd" # Name of the database that will be written to
+      batch-size = 5000 # will flush if this many points get buffered
+      batch-pending = 10 # number of batches that may be pending in memory
+      batch-timeout = "10s"
+      read-buffer = 0 # UDP read buffer size, 0 means to use OS default
+      typesdb = "/usr/share/collectd/types.db"
+  3. Enable Auth:
+    [http]
+      auth-enabled = true
+  4. Add admin user
+    [root@localhost ~]# influx
+    Connected to http://localhost:8086 version 1.2.0
+    InfluxDB shell version: 1.2.0
+    > CREATE USER "root" WITH PASSWORD 'root' WITH ALL PRIVILEGES
+    >
+## collectd config (/etc/collectd.conf):
+  1. Global setting:
+    Hostname    "localhost"
+    FQDNLookup   false # If Hostname is determined automatically this setting controls whether or not the daemon should try to figure out the "fully qualified domain name", FQDN.
+    Interval     10 # collect performance data everry 10 seconds.
+  2. Enable cpu plugin:
+    LoadPlugin cpu
+    <Plugin cpu>
+      ReportByCpu false
+      ReportByState false
+    </Plugin>
+  3. Enable memory plugin:
+    LoadPlugin memory
+    <Plugin memory>
+      ValuesAbsolute false
+      ValuesPercentage true
+    </Plugin>
+  4. Enable disk plugin:
+    LoadPlugin disk
+  5. Enable interface plugin:
+    LoadPlugin interface
+  6. Enable network plugin:
+    LoadPlugin network
+    <Plugin network>
+      Server "localhost" "25826"
+    </Plugin>
+  7. Enable virt plugin:
+    LoadPlugin virt
+    <Plugin virt>
+      Connection "qemu:///system"
+      RefreshInterval  10
+    </Plugin>
+## InfluxDB SQL example:
+  1. Get VM disk read
+    SELECT "value" FROM "virt_read" WHERE "host" = 'centos7.0' AND "type" = 'disk_octets' AND "type_instance" = 'vda'
+  2. Get VM disk write
+    SELECT "value" FROM "virt_write" WHERE "host" = 'centos7.0' AND "type" = 'disk_octets' AND "type_instance" = 'vda'
+  3. Get VM network receive
+    SELECT "value" FROM "virt_rx" WHERE "host" = 'centos7.0' AND "type" = 'if_octets' AND "type_instance" = 'vnet0'
+  4. Get VM network transfer
+    SELECT "value" FROM "virt_tx" WHERE "host" = 'centos7.0' AND "type" = 'if_octets' AND "type_instance" = 'vnet0'
+  5. Get VM cpu usage
+    SELECT derivative("value", 10s)  / 100000000 FROM "virt_value" WHERE "host" = 'centos7.0' AND "type" = 'virt_vcpu' AND "type_instance" = '0'
+    [Description]
+    We cannot get cpu usage from libvirt directly, we can only get the cpuTime, in order to get cpu usage, we can follow the steps below:
+    5.1 cpu_time_diff = cpuTimenow — cpuTimet seconds ago
+    5.2 %CPU = 100 × cpu_time_diff / (t × nr_cores × 109)
+  6. Get PM disk read
+    SELECT "value" FROM "disk_read" WHERE "host" = 'localhost' AND "instance" = 'sda' AND "type" = 'disk_octets'
+  7. Get PM disk write
+    SELECT "value" FROM "disk_write" WHERE "host" = 'localhost' AND "instance" = 'sda' AND "type" = 'disk_octets'
+  8. Get PM network receive
+    SELECT "value" FROM "interface_rx" WHERE "host" = 'localhost' AND "instance" = 'eno16777736' AND "type" = 'if_octets'
+  9. Get PM network transfer
+    SELECT "value" FROM "interface_tx" WHERE "host" = 'localhost' AND "instance" = 'eno16777736' AND "type" = 'if_octets'
+  10. Get PM cpu usage
+    SELECT "value" FROM "cpu_value" WHERE "host" = 'localhost' AND "type" = 'percent' AND "type_instance" = 'active'
+  11. Get PM memory usage
+    SELECT "value" FROM "memory_value" WHERE "host" = 'localhost' AND "type" = 'percent' AND "type_instance" = 'used'
