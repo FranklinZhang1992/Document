@@ -1,0 +1,39 @@
+﻿☆mdadm用法
+
+基本语法： 
+mdadm [mode] <raid-device> [options] <component-devices>
+
+目前支持： 
+LINEAR, RAID0(striping), RAID1(mirroring), RAID4, RAID5, RAID6, RAID10, MULTIPATH和FAULTY
+
+模式(7种)：
+Assemble：加入一个以前定义的阵列
+Build：创建一个没有超级块的阵列
+Create：创建一个新的阵列，每个设备具有超级块
+Manage： 管理阵列(如添加和删除)
+Misc：允许单独对阵列中的某个设备进行操作(如停止阵列)
+Follow or Monitor:监控RAID的状态
+Grow：改变RAID的容量或阵列中的设备数目
+
+选项：
+-A, --assemble：加入一个以前定义的阵列
+-B, --build：创建一个没有超级块的阵列(Build a legacy array without superblocks.)
+-C, --create：创建一个新的阵列
+-F, --follow, --monitor：选择监控(Monitor)模式
+-G, --grow：改变激活阵列的大小或形态
+-I, --incremental：添加一个单独的设备到合适的阵列，并可能启动阵列
+--auto-detect：请求内核启动任何自动检测到的阵列
+-h, --help：帮助信息，用在以上选项后，则显示该选项信息
+--help-options：显示更详细的帮助
+-V, --version：打印mdadm的版本信息
+-v, --verbose：显示细节
+-b, --brief：较少的细节。用于 --detail 和 --examine 选项
+-Q, --query：查看一个device，判断它为一个 md device 或是 一个 md 阵列的一部分
+-D, --detail：打印一个或多个 md device 的详细信息
+-E, --examine：打印 device 上的 md superblock 的内容
+-c, --config= ：指定配置文件，缺省为 /etc/mdadm.conf
+-s, --scan：扫描配置文件或 /proc/mdstat以搜寻丢失的信息。配置文件/etc/mdadm.conf
+
+★使用mdadm创建RAID5
+使用mdadm创建在/dev/md0上创建一个由sdb、sdc、sdd3块盘组成(另外1块盘sde为热备)的RAID5
+[root@localhost mdadm-2.6.2]# mdadm --create --verbose /dev/md0 --level=raid5 --raid-devices=3 /dev/sdb /dev/sdc /dev/sdd --spare-devices=1 /dev/sde
