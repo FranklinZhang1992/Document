@@ -1,2 +1,8 @@
 # msgsnd/msgrcv函数祥解
 http://cache.baiducontent.com/c?m=9f65cb4a8c8507ed4fece7631046893b4c4380146d96864968d4e414c422460a102da4e87b774758ce963c215afe170bf7a6613464587ef686cc8d40deba94283bcd7a742613d75612a30eafbb5125b07fd10fa9fe5d&p=9167c54ad5c343e40be296224553a5&newp=b43ec40ac5934eac58efdb2d0214c6231610db2151d59f&user=baidu&fm=sc&query=c%2B%2B+msgrcv&qid=9fa0315c0000be26&p1=5
+
+# C++ http request lib
+https://github.com/whoshuu/cpr
+
+# GTK+学习笔记1---GTK+基础与常用控件
+http://cache.baiducontent.com/c?m=9d78d513d99607f64fede5215e568e215b4380122ba1d2020fd78439e2732c465321a3e52878564291d27d141cb21902b7a52172400024b68cc8ff1b80e48f71789f20402c5bcc5c428d44fad607639266cb0bf4af1be7bff23091acd5d3dd5753ce53077e81fa885c041fd7&p=cb70c40f85cc43fe08e2977e0c47c6&newp=c66cc00d86cc42af59aec7710f4c90231610db2151d693&user=baidu&fm=sc&query=gtk+markup+%D0%B1%CC%E5&qid=8f280b08001697f4&p1=4

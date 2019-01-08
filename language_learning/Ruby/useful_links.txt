@@ -51,3 +51,15 @@ https://segmentfault.com/a/1190000000368191
 
 # 在Ruby on Rails中优化ActiveRecord的方法
 https://www.jb51.net/article/64658.htm
+
+# Ruby 扩展库两种写法
+https://ruby-china.org/topics/23030
+
+# 一个简单的例子 | write-ruby-extension-with-c
+https://wusuopu.gitbooks.io/write-ruby-extension-with-c/content/chapter01/README.html
+
+# Programming Ruby: The Pragmatic Programmer's Guide
+http://shouce.jb51.net/ruby/114.html
+
+# RubyGems 镜像 - 淘宝网
+https://ruby.taobao.org/

@@ -1,0 +1,5 @@
+# Collectd & InfluxDb & Grafana 之一: 常用系统统计
+https://segmentfault.com/a/1190000006868587
+
+# InfluxData | Documentation | Glossary of Terms
+https://docs.influxdata.com/influxdb/v1.2/concepts/glossary/#measurement

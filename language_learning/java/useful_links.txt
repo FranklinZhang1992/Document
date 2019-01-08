@@ -1,0 +1,44 @@
+# Hibernate4之JPA规范配置详解
+http://daizhenghua.good.blog.163.com/blog/static/10528772620132212525922/
+
+# 初识Hibernate Search
+http://blog.csdn.net/dm_vincent/article/details/40649203
+
+# Hibernate Search 和 Lucene 的快速介绍
+https://www.oschina.net/translate/quick-intro-to-hibernate-search-and-lucene
+
+# JerseyTest using GrizzlyWebTestContainerFactory in Jersey 2.13 - Stack Overflow
+https://stackoverflow.com/questions/26751854/jerseytest-using-grizzlywebtestcontainerfactory-in-jersey-2-13?rq=1
+
+# Injection of HttpServletRequest - Stack Overflow
+https://stackoverflow.com/questions/13419887/injection-of-httpservletrequest
+
+# JFreeChart中图象的一些设置
+http://cache.baiducontent.com/c?m=9d78d513d99b15ef0fbac5245e5691711925971237c0a71f68a2975fe2654c40372ca8f9797f5613d3b46b1100b83e2cfdf14665467537c7eadf893acacd933f59883035000bf64205a56db8bb3132b622841da9f116bdfcb67084afa1cec2040d9706127af7a1ca0c5c03ca18ac4377fef8c2004f044afdb63067fd442469d97811e810e4b6652854daa89c414dc92ed06a1396&p=c372c54ad5c440e90be296665c4386&newp=882a9642d78917c30be2962f505097231610db2151d4db143582ff&user=baidu&fm=sc&query=jfreechart+%C9%E8%D6%C3xyplot+%D3%EB%CD%BC%D3%D2%B1%DF%BE%E0&qid=e62860aa0000b64b&p1=1
+
+# 利用JFreeChart生成折线图
+https://wenku.baidu.com/view/6f26007a1711cc7931b71636.html
+
+# spring data jpa实战
+https://wenku.baidu.com/view/319d1162783e0912a2162abf.html
+
+# Spring Data JPA
+http://cache.baiducontent.com/c?m=9f65cb4a8c8507ed4fece7631046893b4c4380146d96864968d4e414c42246091d31bfe574791006d0c5613441e9120db4a72b24604573ecc5899541dbbe94282a8b33712d5cd04e539159f4971332c151c609affc0ee7cba870c0b9d2a2c82453dd23716df0f59c2c0403cb1fe7643bf4d2e85f635d07cbed&p=c33f865986cc42a85e9fc7710f0cc4&newp=c0759a46d1c55bfb10be9b7c4a4d94231610db2151ddda1f6580db&user=baidu&fm=sc&query=spring+data+jpa+%B2%BF%B7%D6%B8%FC%D0%C2&qid=88086314000efb22&p1=1
+
+# javamail模拟邮箱功能--邮件回复-中级实战篇【邮件回复方法】
+http://doc.okbase.net/liuyitian/archive/108568.html
+
+# JPQL
+https://blog.csdn.net/anssin007/article/details/2731910
+
+# Maven repo
+https://mvnrepository.com/
+
+# XML-RPC Response Format
+http://www.tutorialspoint.com/xml-rpc/xml_rpc_response.htm
+
+# java - JAX-RS — How to return JSON and HTTP status code together? - Stack Overflow
+http://stackoverflow.com/questions/4687271/jax-rs-how-to-return-json-and-http-status-code-together
+
+# Swagger Core Jersey 2.X Project Setup 1.5 · swagger-api/swagger-core Wiki
+https://github.com/swagger-api/swagger-core/wiki/Swagger-Core-Jersey-2.X-Project-Setup-1.5#using-jersey-2-container-servlet-or-filter-with-webxml

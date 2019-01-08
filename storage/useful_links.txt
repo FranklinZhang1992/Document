@@ -1,0 +1,8 @@
+# mdadm使用详解及RAID 5简单分析
+https://blog.csdn.net/chinalinuxzend/article/details/1854279
+
+# 解析LUN存储及LUN在SAN管理中的角色
+http://www.searchstorage.com.cn/showcontent_75947.htm
+
+# 全身心拥抱NAS，如何使用iSCSI Target服务？
+http://www.expreview.com/25412-all.html

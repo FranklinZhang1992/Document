@@ -1,0 +1,17 @@
+# How to troubleshoot Volume Activation error codes in Windows 7, in Windows Server 2008, and in Windows Vista
+https://support.microsoft.com/en-us/help/938450/how-to-troubleshoot-volume-activation-error-codes-in-windows-7-in-wind
+
+# Set AdministratorPassword via unattend file
+https://technet.microsoft.com/en-us/library/ff716178.aspx
+
+# KMS Client Setup Keys
+https://technet.microsoft.com/en-us/library/jj612867(v=ws.11).aspx
+
+# Disabling Automatic Updates-Windows Configurations How To
+https://www.manageengine.com/products/desktop-central/disabling-automatic-updates-how-to.html
+
+# Using the registry editor to change the service state
+http://smallvoid.com/article/winnt-services-regedit.html
+
+# The disk is offline because of policy set by an administrator
+http://www.happysysadm.com/2010/11/disk-is-offline-because-of-policy-set.html

@@ -1,2 +1,17 @@
 # 虚拟硬盘：VHDX解析
 http://blog.51cto.com/tasnrh/1908700
+
+# libvirt: The virtualization API
+http://libvirt.org/
+
+# Windows2008R2新添加的硬盘无法识别 VM虚拟机
+http://cache.baiducontent.com/c?m=9d78d513d9861af30eb0d13f1a17a7661b5780743ca6864e3e8d8449e3674c41363bb7ef79794c53c7823c390ef50f1aa8e737012a1e70e9c69d9f4aaaead37e739f27432c4bc05c529458ee9511389260d601b8f14efaeca774c0f58c92c25150c1510f7f8a&p=ce7ddc1187904ead00bd9b7d0d1294&newp=8f338916d9c118fb43bd9b7d0d1291231610db2151d4d011268088&user=baidu&fm=sc&query=windows2012+disk1+offline&qid=e547c4ca00174b35&p1=1
+
+# 在Windows Server 2012中打开传统的磁盘管理界面
+http://cache.baiducontent.com/c?m=9f65cb4a8c8507ed4fece7631046893b4c4380146d96864968d4e414c42246031a3bbde667740d57938327365ff8540abdb6652969423db198c88b4edbbb973c6ad567627f59dd1d448e5ceedc4755c122935afeaf68f0caf625e7aec5a3ab4320b944040a97808d4d7113dd1ef7034092b19838022f1bad9b41728e5b605ee9&p=816dcb1186cc42af5cadd72d021489&newp=c6759a46d6c706b90281c7710f448c231610db2151d4d41238c2c924&user=baidu&fm=sc&query=windows2012+%B4%F2%BF%AA%B4%C5%C5%CC%B9%DC%C0%ED&qid=d34345e4001c0924&p1=1
+
+# QEMUSwitchToLibvirt - Libvirt Wiki
+http://wiki.libvirt.org/page/QEMUSwitchToLibvirt
+
+# KVM客户机添加virsh console虚拟终端支持及原理
+http://www.2cto.com/os/201205/130280.html

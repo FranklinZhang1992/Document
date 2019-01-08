@@ -1,0 +1,68 @@
+# Linux Partition HOWTO
+http://tldp.org/HOWTO/Partition/
+
+# Linux makefile 教程 非常详细，且易懂
+http://cache.baiducontent.com/c?m=9f65cb4a8c8507ed4fece7631046893b4c4380146d96864968d4e414c422461f1c35bfee24231400d5c07b6c1cfc091ab1a168252a5577f1c893d60bc0b8972d2c8821306459db0144dc46fc9211719a7ec7&p=9f628e16d9c111a05bed963d155396&newp=8a769a47948950ff57ee947c610094231610db2151d4d1173d9e82&user=baidu&fm=sc&query=makefile&qid=f351326a0013fb76&p1=1
+
+# Red Hat / Centos Install Denyhosts To Block SSH Attacks / Hacking
+http://www.cyberciti.biz/faq/rhel-linux-block-ssh-dictionary-brute-force-attacks/
+
+# Linux下java获取CPU、内存、磁盘IO、网络带宽使用率
+http://cache.baiducontent.com/c?m=9d78d513d99d1af31fa7837e7c01a7160e2083744dddc7667cc3933984152d56336cf4ca27356701c4c40c3c5cbb0e1cb4ff6c34714137b6e8d5951a83e6c73f2fff767526409141658f4ee9d6167b8677875d9df741a2a7a372d5f5838d8849059d155621deb196500512c96df216&p=867c8e188c904ead08e2977e0a4e90&newp=80759a46d6c405f70cb1c7710f5980231610db2151d0d701298ffe0cc4241a1a1a3aecbf26231b0ed6c2766504aa4f5fe8fa3776310834f1f689df08d2ecce7e6bd07368&user=baidu&fm=sc&query=linux+%BB%F1%C8%A1+%CD%F8%C2%E7io&qid=909cc0050001b595&p1=2
+
+# linux下用cron定时执行任务的方法
+http://www.jb51.net/article/15008.htm
+
+# linux下查看硬盘型号、大小等信息（含Raid）
+http://www.2cto.com/os/201501/370316.html
+
+# Packaging software with RPM, Part 2: Upgrading and uninstalling software
+http://www.ibm.com/developerworks/library/l-rpm2/
+
+# 基于AutoYaST自动化安装SuSE实践
+http://www.2cto.com/os/201505/403227.html
+
+# SUSE Support | SUSE
+https://www.suse.com/support/kb/?id=SUSE_Linux_Enterprise_Server&doctype%5B%5D=DT_DOCUMENTATION_1_1
+
+# 如何开启SUSE Linux的SSH
+http://www.linuxidc.com/Linux/2012-07/66034.htm
+
+# Suse Doc: AutoYaST
+https://www.suse.com/documentation/sles-12/book_autoyast/data/createprofile_software.html
+
+# Linux 磁盘坏道检测和修复
+http://cache.baiducontent.com/c?m=9d78d513d99d1af31fa7837e7c01a7660e238b744ca3c76579c3923884145d563661f4ca20356175c4c40c7070dc5e2defe74677207723a09ab89f3cdcace42a38895723006c913115c469a8dc3727d567d004e6f55fa1f8e733e0b3cf83810906dd53722bdaabd70947489125e71446bff1df55520446aded4665fd5c7d2d9c2747a1478fbb647907f7f7de594ec620d67611e0f573ef60&p=86759a4ed39612a05ab8d7624e4a&newp=c0769a47828701ff57e69139495c92695d0fc20e3cd7d601298ffe0cc4241a1a1a3aecbf21211307d6c7776003a8425aeefb3570320234f1f689df08d2ecce7e7bcc67&user=baidu&fm=sc&query=linux+%B2%E9%BF%B4%B4%C5%C5%CC%CA%C7%B7%F1%D3%D0%BB%B5%B5%C0&qid=e8610f9a00026d3e&p1=2
+
+# makefile 中 $@ $^ %< 使用
+http://cache.baiducontent.com/c?m=9d78d513d99c12f60fb9cf205a01d7170e5486743da7c7137dc0d408cd6b01070124f4ba543f0d548d98297001d8181dbcac2172405f77f18691df0b8ee0c87b728223346d4fc607498247f8d610728773cb04a8b21ce6bbf03593a4&p=c26ddf16d9c111a05bed94261b4a9e&newp=882a9645d69e5ffb12be9b7c4b43c1231610db2151d4d6156b82c825d7331b001c3bbfb423241003d8c27c6706ab4d5deff7377437012ba3dda5c91d9fb4c57479d539603a&user=baidu&fm=sc&query=makefile+%24%40&qid=9385dd1e0015a2f3&p1=1
+
+# How to overcome "'aclocal-1.15' is missing on your system" warning when compiling? - Stack Overflow
+https://stackoverflow.com/questions/33278928/how-to-overcome-aclocal-1-15-is-missing-on-your-system-warning-when-compilin
+
+# Linux IO实时监控iostat命令详解
+http://cache.baiducontent.com/c?m=9f65cb4a8c8507ed4fece763105392230e54f73260878e482a958448e435061e5a33b6e360734a538f90613441fe1307aea72b72350021aa99cb9549dca6922228822d37720b8636489546f1df037881769f01b4ee5fb4fc&p=c37ada5f85cc43b503bd9b7d0d14c1&newp=8a759a46d6c11af90be29623424782231610db2151d4d71e6b82c825d7331b001c3bbfb423241602d2c47d6406ae4957eef13578310727a3dda5c91d9fb4c57479d371&user=baidu&fm=sc&query=iostat&qid=8f28692f0002debb&p1=1
+
+# linux sar命令详解
+http://lovesoo.org/linux-sar-command-detailed.html
+
+# 玩转centos7的systemctl添加自定义服务
+http://www.zheng-hang.com/?id=77
+
+# 使用 netcat [nc] 命令对 Linux 和 Unix 进行端口扫描
+https://linux.cn/article-6733-1.html
+
+# Linux issue: A START JOB IS RUNNING FOR DEV-DISK-BY
+https://donnutcompute.wordpress.com/2014/04/19/a-start-job-is-running-for-dev-disk-by/
+
+# 端口扫描工具: Ncat Users' Guide
+https://nmap.org/ncat/guide/index.html
+
+# 在 Kali Linux 下实战 Nmap（网络安全扫描器）
+https://linux.cn/article-7960-1.html
+
+# 扫描工具——Nmap用法详解
+http://cache.baiducontent.com/c?m=9d78d513d99f1efc1afa950e1a67a471695f97153dc0a11468d5e35fe3614c31317193be30511a10948522685be90f1eabe737012a1e65f2dedf883d8ce7c27672dd6623706bd71c4dce5cf8901c6292209459edb25bfabef73998aad2d8c8542490155a24&p=9134c54ad5c347f90dbac7710f5986&newp=8462c40f969e12a05abd9b7d0d108a231610db2151d4db1e6b82c825d7331b001c3bbfb423251207d2c57d6607a4495cecfa307931012ba3dda5c91d9fb4c57479&user=baidu&fm=sc&query=nmap%CA%B9%D3%C3%B7%BD%B7%A8&qid=fe8b70c0000084eb&p1=2
+
+# 端口扫描之王——nmap入门精讲（一）
+http://cache.baiducontent.com/c?m=9f65cb4a8c8507ed19fa950d100b92235c4380146d8b804b2281d25f93130a1c187ba2fd3022665a8484223c56b20b41edf33575370922a09bbfd20c82e5866d72c8713b676c825663a30edfbf5153b237912afede12f0c9fa25e2afc5a4d5&p=83759a46d6c05afc57efc9364b498b&newp=8b2a972986cc42af5bb4c02b5b6497231610db2151d2d301298ffe0cc4241a1a1a3aecbf20201304d6c1776300a84c56e8f73676350834f1f689df08d2ecce7e43&user=baidu&fm=sc&query=%B6%CB%BF%DA%C9%A8%C3%E8&qid=eff1c19a00008068&p1=4

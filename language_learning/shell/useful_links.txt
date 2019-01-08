@@ -10,4 +10,5 @@ http://c.biancheng.net/cpp/shell/
 # 使用expect实现shell自动交互
 http://www.nginx.cn/1934.html
 
-# 
+# Shell 基本运算符
+http://www.runoob.com/linux/linux-shell-basic-operators.html

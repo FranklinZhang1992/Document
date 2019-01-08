@@ -1,9 +1,3 @@
-# Hibernate4之JPA规范配置详解
-http://daizhenghua.good.blog.163.com/blog/static/10528772620132212525922/
-
-# 初识Hibernate Search
-http://blog.csdn.net/dm_vincent/article/details/40649203
-
 # Online json parse website
 http://json.parser.online.fr/beta/
 http://json.parser.online.fr/
@@ -11,3 +5,15 @@ https://jsoncompare.com/
 
 # Eclipse快捷键大全
 http://cache.baiducontent.com/c?m=9f65cb4a8c8507ed4fece763105392230e54f733628a854d2c90c05f93130716017bb0ea61794d58ce963c215afe170babed357736022ba09bbfd20c82e5866d72c8713b274dd81a50924eb8cb3732b154872d98b86991ad864484afa2c4af2544be22&p=92769a47949906e51dbd9b7d0b12a5&newp=9b7ed316d9c157ef08e29778090c91231610db2151d6da116994&user=baidu&fm=sc&query=eclipse+%BF%EC%BD%DD%BC%FC&qid=&p1=2
+
+# Eclipse快捷键 10个最有用的快捷键
+http://www.open-open.com/solution/view/1320934157953/
+
+# 廖雪峰的官方网站
+https://www.liaoxuefeng.com/wiki/0013739516305929606dd18361248578c67b8067c8c017b000/0013743858312764dca7ad6d0754f76aa562e3789478044000
+
+# 慕课网-免费的IT技能学习平台
+https://www.imooc.com/
+
+# ＳＭＡＲＴ原则
+http://www.douban.com/group/topic/2246902/
