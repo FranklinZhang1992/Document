@@ -1,0 +1,13 @@
+# Shell 教程
+https://www.yiibai.com/shell/what_is_shell.html
+
+# Shell 使用Shell变量
+https://www.yiibai.com/shell/unix-using-variables.html
+
+# Linux Shell脚本教程：30分钟玩转Shell脚本编程
+http://c.biancheng.net/cpp/shell/
+
+# 使用expect实现shell自动交互
+http://www.nginx.cn/1934.html
+
+# 

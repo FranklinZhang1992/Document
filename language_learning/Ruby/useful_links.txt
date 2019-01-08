@@ -1,0 +1,53 @@
+# Ruby-Doc
+http://ruby-doc.org/
+
+# Ruby参考手册 - 附加库
+http://www.kuqin.com/rubycndocument/man/addlib/index.html
+
+# Ruby参考手册 - 内部类／模块／异常类
+http://www.kuqin.com/rubycndocument/man/built-in-class/index.html
+
+# 动手写rails（一）_Rack标准和HttpServer之WEBrick
+https://www.tuicool.com/articles/2uAba2
+
+# What are the Ruby File.open modes and options? - Stack Overflow
+https://stackoverflow.com/questions/3682359/what-are-the-ruby-file-open-modes-and-options
+
+# Ruby 里的 %Q, %q, %W, %w, %x, %r, %s, %i
+https://ruby-china.org/topics/18512
+
+# ruby中exec,system,%x的区别
+http://www.makaidong.com/%E5%8D%9A%E5%AE%A2%E5%9B%AD%E7%9F%A5%E8%AF%86%E5%BA%93/12844.shtml
+
+# Ruby惯用法
+https://www.iteye.com/topic/24642
+
+# Ruby参考手册 - fileutils.rb
+http://www.kuqin.com/rubycndocument/man/addlib/fileutils.html
+
+# Ruby 2.2.1 Standard Library Documentation
+http://ruby-doc.org/stdlib-2.2.1/
+
+# Index of Files, Classes & Methods in Ruby 2.2.2 (Ruby 2.2.2)
+http://ruby-doc.org/core-2.2.2/
+
+# Ruby使用C/C 扩展(包括windows和linux)
+http://www.360doc.com/content/12/0328/09/33776_198498929.shtml
+
+# Ruby Socket 编程
+http://www.ziqiangxuetang.com/ruby/ruby-socket-programming.html
+
+# Module: WEBrick (Ruby 1.9.3)
+http://ruby-doc.org/stdlib-1.9.3/libdoc/webrick/rdoc/WEBrick.html
+
+# 使用 Ruby 进行 socket 编程
+http://www.docin.com/p-160192600.html
+
+# ruby-dbus
+https://github.com/mvidner/ruby-dbus/blob/master/doc/Tutorial.md
+
+# 在 Ruby 中执行 Shell 命令的 6 种方法
+https://segmentfault.com/a/1190000000368191
+
+# 在Ruby on Rails中优化ActiveRecord的方法
+https://www.jb51.net/article/64658.htm

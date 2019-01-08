@@ -1,0 +1,3 @@
+# 详解Cassandra数据模型
+http://database.51cto.com/art/201005/202153.htm
+

@@ -1,0 +1,2 @@
+# 虚拟硬盘：VHDX解析
+http://blog.51cto.com/tasnrh/1908700

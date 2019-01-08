@@ -1,0 +1,13 @@
+# Hibernate4之JPA规范配置详解
+http://daizhenghua.good.blog.163.com/blog/static/10528772620132212525922/
+
+# 初识Hibernate Search
+http://blog.csdn.net/dm_vincent/article/details/40649203
+
+# Online json parse website
+http://json.parser.online.fr/beta/
+http://json.parser.online.fr/
+https://jsoncompare.com/
+
+# Eclipse快捷键大全
+http://cache.baiducontent.com/c?m=9f65cb4a8c8507ed4fece763105392230e54f733628a854d2c90c05f93130716017bb0ea61794d58ce963c215afe170babed357736022ba09bbfd20c82e5866d72c8713b274dd81a50924eb8cb3732b154872d98b86991ad864484afa2c4af2544be22&p=92769a47949906e51dbd9b7d0b12a5&newp=9b7ed316d9c157ef08e29778090c91231610db2151d6da116994&user=baidu&fm=sc&query=eclipse+%BF%EC%BD%DD%BC%FC&qid=&p1=2
