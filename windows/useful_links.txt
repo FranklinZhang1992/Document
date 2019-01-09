@@ -31,3 +31,18 @@ https://docs.microsoft.com/zh-cn/dotnet/framework/windows-services/walkthrough-c
 
 # How to Sysprep Windows Server 2008
 http://jameskovacs.com/2008/10/15/how-to-sysprep-windows-server-2008/
+
+# Windows 7/8/10 - How to Delete Files Protected by TrustedInstaller
+about:reader?url=https%3A%2F%2Fhelpdeskgeek.com%2Fwindows-7%2Fwindows-7-how-to-delete-files-protected-by-trustedinstaller%2F
+
+# Windows Answer File Generator
+http://windowsafg.no-ip.org/win10x86_x64.html
+
+# Win32 Error Codes
+https://msdn.microsoft.com/en-us/library/cc231199.aspx
+
+# The Pros and Cons of Windows 10’s “Fast Startup” Mode
+https://www.howtogeek.com/243901/the-pros-and-cons-of-windows-10s-fast-startup-mode/
+
+# Windows 7/8/10 – How to Delete Files Protected by TrustedInstaller
+https://helpdeskgeek.com/windows-7/windows-7-how-to-delete-files-protected-by-trustedinstaller/

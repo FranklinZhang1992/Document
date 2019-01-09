@@ -3,3 +3,6 @@ http://wixtoolset.org/
 
 # Should you run MSI or EXE Setup files?
 https://www.ghacks.net/2009/03/23/msi-or-exe-setup/
+
+# invalid argument - Passing MsBuild Variables to Wix
+https://deejaygraham.github.io/2017/03/01/passing-msbuild-variables-to-wix/

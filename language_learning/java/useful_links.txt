@@ -78,3 +78,66 @@ https://www.cnblogs.com/logsharing/p/8448446.html
 
 # Apache Tomcat 7 (7.0.92) - SSL/TLS Configuration HOW-TO
 https://tomcat.apache.org/tomcat-7.0-doc/ssl-howto.html#Troubleshooting
+
+# 使用 Jersey 和 Apache Tomcat 构建 RESTful Web 服务
+http://www.ibm.com/developerworks/cn/web/wa-aj-tomcat/
+
+# 用Jersey构建RESTful服务4--通过jersey-client客户端调用Jersey的Web服务模拟CURD
+http://cache.baiducontent.com/c?m=9d78d513d99b12eb0ba7837f7d01d7110e55f0267dc0d16568d4e45f92141b00506793ac27550705a394223c56f30f4beb802172401421c7de9fd85ddccbd47b6fdd7072645bc61f1d895fe9895124b23d8d0ab7f24cf0ba8763d2f88ec4df230f9d151823d9a9d50744438132b70962a3e0c2194b080decba7636a40736349f2047b542fae435&p=882a9f47ce912dee0fb0c7710f0a&newp=8b2a9715d9c943b319b5f82f615292695d0fc20e3dd6da&user=baidu&fm=sc&query=javax%2Ews%2Ers%2Eclient%2EWebTarget&qid=ca1cce450000563a&p1=1
+
+# java C# 使用AES加密互解 采用AES-128-ECB加密模式
+https://www.oschina.net/code/snippet_242957_9931
+
+# Password reset email design best practices
+https://postmarkapp.com/guides/password-reset-email-best-practices
+
+# java - Encrypt Password in Configuration Files? - Stack Overflow
+https://stackoverflow.com/questions/1132567/encrypt-password-in-configuration-files
+
+# Tomcat vs. Jetty vs. Undertow: Comparison of Spring Boot Embedded Servlet Containers
+https://examples.javacodegeeks.com/enterprise-java/spring/tomcat-vs-jetty-vs-undertow-comparison-of-spring-boot-embedded-servlet-containers/
+
+# jwtk/jjwt: Java JWT: JSON Web Token for Java and Android
+https://github.com/jwtk/jjwt#jws-read-key
+
+# jwtk/jjwt: Java JWT: JSON Web Token for Java and Android
+https://github.com/jwtk/jjwt
+
+# auth0/java-jwt: Java implementation of JSON Web Token (JWT)
+https://github.com/auth0/java-jwt
+
+# bigmeow/JWT: webapp用户身份认证方案 JSON WEB TOKEN 实现Deme示例，Java版
+https://github.com/bigmeow/JWT
+
+# 推荐几个Spring Cloud学习资料
+https://blog.csdn.net/u012702547/article/details/77982571
+
+# java - SNMP4J V3 Trap with AuthPriv not processing - Stack Overflow
+https://stackoverflow.com/questions/53046986/snmp4j-v3-trap-with-authpriv-not-processing
+
+# SNMPUtils Java Source Code
+https://www.programcreek.com/java-api-examples/?code=Stratio/ingestion/ingestion-master/stratio-sources/stratio-snmptraps-source/src/test/java/com/stratio/ingestion/source/snmptraps/SNMPUtils.java#
+
+# Java进程Runtime、Process、ProcessBuilder调用外部程序
+http://blog.csdn.net/c315838651/article/details/72085739
+
+# JasperReport详解_(1)
+http://wenku.baidu.com/link?url=GhSmjMjVwpPBmVGcPes6C4j6n2hwwmpMWETrHRzYngepyt9MgUJPB1tn0z06_3VYBdaQruVbVVDXgWr7N346TSThiQF5Ixk4T1tTY7Nwqj3
+
+# JFreeChart最佳实践：折线图
+http://cache.baiducontent.com/c?m=9d78d513d99b15ef0fba837e7c01a66d0e238a744ad3c7647ec3923884125e56336cf4cb24356777c4c40c7070d95e2c9be73702207525a0efc29f3adeace55b388957230619913716c468dedc3122d621e04d9fac0e91bde74398b9a1a3c85422dd25026df6809c2b7403bc1be71541f4d7ef5f652e04fdad6e6aa51f316b882233ab5aafb7763959dcb48a1c5bc35dd76240d1f222b04943e84cb94c5b6259a04eb20b52262de14d2df54e3d13929c07a175&p=aa7bcf1786cc40aa00be9b7c4a5f&newp=8b2a97568b9c5afb08e2957b614b92695d0fc20e3cc48d4a6480&user=baidu&fm=sc&query=jfree+%C9%E8%D6%C3%D7%F8%B1%EA%CD%BC%D7%F8%B1%EA%D7%D6%CC%E5%D1%D5%C9%AB+%D5%DB%CF%DF%CD%BC&qid=b1ca20e3000049e9&p1=4
+
+# java - Delete last line in text file - Stack Overflow
+https://stackoverflow.com/questions/17732417/delete-last-line-in-text-file
+
+# 深入研究java.lang.ProcessBuilder类
+http://blog.51cto.com/lavasoft/15662
+
+# jwt - RS256 vs HS256: What's the difference? - Stack Overflow
+https://stackoverflow.com/questions/39239051/rs256-vs-hs256-whats-the-difference
+
+# Critical vulnerabilities in JSON Web Token libraries
+https://auth0.com/blog/critical-vulnerabilities-in-json-web-token-libraries//
+
+# archive - How do I extract a tar file in Java? - Stack Overflow
+https://stackoverflow.com/questions/315618/how-do-i-extract-a-tar-file-in-java

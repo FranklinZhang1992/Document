@@ -72,3 +72,6 @@ http://www.runoob.com/ruby/ruby-xml-xslt-xpath.html
 
 # Ruby中的inject
 https://biyeah.iteye.com/blog/1286449
+
+# 3 steps to fix encoding problems in Ruby - Justin Weiss
+https://www.justinweiss.com/articles/3-steps-to-fix-encoding-problems-in-ruby/

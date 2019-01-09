@@ -3,3 +3,6 @@ https://segmentfault.com/a/1190000006868587
 
 # InfluxData | Documentation | Glossary of Terms
 https://docs.influxdata.com/influxdb/v1.2/concepts/glossary/#measurement
+
+# Try InfluxDB and Grafana by docker
+https://blog.laputa.io/try-influxdb-and-grafana-by-docker-6b4d50c6a446#.qlrhgfcbg

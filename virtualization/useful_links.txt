@@ -21,3 +21,18 @@ http://www.linux-kvm.org/downloads/lersek/ovmf-whitepaper-c770f8c.txt
 
 # 迁移VMware虚拟机到KVM(3)–virt-v2v 迁移 VMware ESX 虚拟机的配置
 http://hz.togogo.net/BrainJam/wenxian/2013/0411/495.html
+
+# QEMU Emulator User Documentation
+http://wiki.qemu.org/download/qemu-doc.html
+
+# [libvirt-users] Question about vnc connection password set to empty
+https://www.redhat.com/archives/libvirt-users/2014-October/msg00045.html
+
+# Windows VirtIO Drivers
+https://pve.proxmox.com/wiki/Windows_VirtIO_Drivers
+
+# How to Convert VMDK (Virtual Machine Disk) to VDI using VBoxManage?
+https://techglimpse.com/vmware-vmdk-to-virtual-box-vdi-vboxmanage/
+
+# VMware vSphere 5.1
+https://pubs.vmware.com/vsphere-51/index.jsp?topic=%2Fcom.vmware.vsphere.vcenterhost.doc%2FGUID-CE128B59-E236-45FF-9976-D134DADC8178.html

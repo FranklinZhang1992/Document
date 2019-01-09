@@ -26,3 +26,6 @@ http://4byte.cn/question/9001/devstack-installation-with-swift-enabled.html
 
 # OpenStack glossary
 http://docs.openstack.org/glossary/content/glossary.html
+
+# OpenStack API Quick Start
+http://docs.openstack.org/api/quick-start/content/

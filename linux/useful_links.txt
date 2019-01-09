@@ -87,3 +87,90 @@ https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html-si
 
 # ssh连接远程主机执行脚本的环境变量问题
 http://wenku.baidu.com/link?url=TLR-jt_WRjXA2HUn-twQugqnci6_hDr8bfL5BKHnwaJ2v31V4n4AI_5RGDY-aw-G43fA_1i8kZtvGd6VRuFa_YSI2Wu9iHFi3Q4et0Fvub_
+
+# Ubuntu操作系统安装使用教程
+http://www.williamlong.info/archives/1905.html
+
+# linux中vim编辑器的使用
+http://wenku.baidu.com/link?url=m93O6OSIIMM3d58TkaWiTOKHUDoTyA_Iv2lLmNATRf5bEOf_U8xN3cgIpwphQzch1-uqf5HZHlMZv-jqyYUHyMFvDeJibR-m5sAjI-EeouO
+
+# CentOS 6.3下配置iSCSI网络存储
+http://www.cnblogs.com/mchina/p/centos-iscsi-network-storage.html
+
+# 24.5. Customizing the GRUB 2 Configuration File
+https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/System_Administrators_Guide/sec-Customizing_the_GRUB_2_Configuration_File.html
+
+# Chapter 24. Working with the GRUB 2 Boot Loader
+https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/System_Administrators_Guide/ch-Working_with_the_GRUB_2_Boot_Loader.html
+
+# 24.4. Making Persistent Changes to a GRUB 2 Menu Using the grubby Tool
+https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/System_Administrators_Guide/sec-Making_Persistent_Changes_to_a_GRUB_2_Menu_Using_the_grubby_Tool.html
+
+# System Administrator's Guide
+https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/7/html/System_Administrators_Guide/index.html
+
+# 30.6. Verifying the Boot Loader
+https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Deployment_Guide/s1-kernel-boot-loader.html#ex-_boot_grub_grub.conf
+
+# Deployment Guide
+https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Deployment_Guide/index.html
+
+# Product Documentation for Red Hat Enterprise Linux - Red Hat Customer Portal
+https://access.redhat.com/documentation/en/red-hat-enterprise-linux/?version=6
+
+# RHEL7/Centos 7将网卡名称改为eth0
+http://www.cnblogs.com/horizonli/p/5481129.html
+
+# 5 Tools for Monitoring Disk Activity in Linux
+https://www.opsdash.com/blog/disk-monitoring-linux.html
+
+# How to register and subscribe a system to the Red Hat Customer Portal using Red Hat Subscription-Manager - Red Hat Customer Portal
+https://access.redhat.com/solutions/253273
+
+# SUSE Doc: Heartbeat - Configuring Constraints
+https://www.suse.com/documentation/sles10/heartbeat/data/sec_hb_manual_config_constraints.html
+
+# Free Product Editions
+https://www.tangiblesoftwaresolutions.com/free_editions.html
+
+# Inst-source-utils - openSUSE
+https://old-en.opensuse.org/Inst-source-utils
+
+# SDB:Creating YaST installation sources - openSUSE
+https://en.opensuse.org/SDB:Creating_YaST_installation_sources
+
+# How to Setup a Network Repository to Install or Update Packages - Part 11
+https://www.tecmint.com/setup-yum-repository-in-centos-7/
+
+# SDB:Network installation - openSUSE
+https://en.opensuse.org/SDB:Network_installation
+
+# 鸟哥的 Linux 私房菜 -- Linux 常用网络指令介绍
+http://cn.linux.vbird.org/linux_server/0140networkcommand.php#ip_cmd
+
+# Linux ip Command Examples
+https://www.cyberciti.biz/faq/linux-ip-command-examples-usage-syntax/#4
+
+# linux查看本机IP、gateway、dns
+https://blog.csdn.net/zdwzzu2006/article/details/6928803
+
+# Linux的/etc/issue、/etc/issue.net和/etc/motd的区别
+https://www.cnblogs.com/pluse/p/5531523.html
+
+# linux 系统中 /etc/passwd 和 /etc/shadow文件详解
+https://blog.csdn.net/yaofeino1/article/details/54616440
+
+# SDB:Network installation - openSUSE
+https://en.opensuse.org/SDB:Network_installation
+
+# 2.2. Creating a Basic Spec File
+https://docs.fedoraproject.org/en-US/Fedora_Draft_Documentation/0.1/html/Packagers_Guide/sect-Packagers_Guide-Creating_a_Basic_Spec_File.html
+
+# ssh连接远程主机执行脚本的环境变量问题
+http://www.kuqin.com/shuoit/20141113/343188.html
+
+# Troubleshooting Failed and Skipped Services
+https://www.novell.com/support/kb/doc.php?id=7002802
+
+# Release Notes for SUSE Linux Enterprise Server 11 Service Pack 4 (SP4)
+https://www.suse.com/releasenotes/x86_64/SUSE-SLES/11-SP4/

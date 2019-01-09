@@ -1,0 +1,14 @@
+# libtomcrypt/src/misc at develop · libtom/libtomcrypt
+https://github.com/libtom/libtomcrypt/tree/develop/src/misc
+
+# libtomcrypt/ltcrypt.c at v1.18.2 · libtom/libtomcrypt
+https://github.com/libtom/libtomcrypt/blob/v1.18.2/demos/ltcrypt.c
+
+# Troy Hunt: Everything you ever wanted to know about building a secure password reset feature
+https://www.troyhunt.com/everything-you-ever-wanted-to-know/
+
+# encryption - Secure Configuration of Ciphers/MACs/Kex available in SSH - Information Security Stack Exchange
+http://security.stackexchange.com/questions/39756/secure-configuration-of-ciphers-macs-kex-available-in-ssh
+
+# Secure Secure Shell
+https://stribika.github.io/2015/01/04/secure-secure-shell.html

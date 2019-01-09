@@ -12,3 +12,6 @@ http://cache.baiducontent.com/c?m=9d78d513d98216fa07bac8385e508c3b45438012688497
 
 # C++ Http访问Cpr开源库编译
 https://blog.csdn.net/anjisi/article/details/81744891
+
+# malloc函数，大大的详解
+https://blog.csdn.net/msdnwolaile/article/details/51695361

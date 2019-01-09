@@ -36,3 +36,6 @@ https://www.suse.com/support/kb/doc/?id=7022512
 
 # Controlling the Performance Impact of Microcode and Security Patches for CVE-2017-5754 CVE-2017-5715 and CVE-2017-5753 using Red Hat Enterprise Linux Tunables - Red Hat Customer Portal
 https://access.redhat.com/articles/3311301#
+
+# Check for and Patch Spectre and Meltdown on CentOS7 | Linux Hint
+https://linuxhint.com/check-for-and-patch-spectre-and-meltdown-on-centos7/

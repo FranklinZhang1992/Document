@@ -1,0 +1,8 @@
+# C# - How to Create a Setup Project to Deploy Windows Services - Part 3/3 - YouTube
+https://www.youtube.com/watch?v=cp2aFNtcZfk
+
+# 在.net core 2.0中生成exe文件
+http://www.cnblogs.com/TianFang/p/8370804.html
+
+# c# - How to ignore a property in class if null, using json.net - Stack Overflow
+https://stackoverflow.com/questions/6507889/how-to-ignore-a-property-in-class-if-null-using-json-net

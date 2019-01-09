@@ -9,3 +9,15 @@ http://libguestfs.org/
 
 # libguestfs-1.28.1-1.18.el7.x86_64.rpm CentOS 7 Download
 http://pkgs.org/centos-7/centos-x86_64/libguestfs-1.28.1-1.18.el7.x86_64.rpm/download/
+
+# Tip: Use libguestfs on VMware ESX guests
+https://rwmj.wordpress.com/2011/05/10/tip-use-libguestfs-on-vmware-esx-guests/#content
+
+# root password
+https://rwmj.wordpress.com/tag/root-password/
+
+# virt-v2v
+https://rwmj.wordpress.com/tag/virt-v2v/
+
+# Bug List
+https://bugzilla.redhat.com/buglist.cgi?component=libguestfs&product=Virtualization%20Tools
