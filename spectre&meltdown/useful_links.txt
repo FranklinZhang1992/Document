@@ -1,0 +1,38 @@
+# QEMU and the Spectre and Meltdown attacks
+https://www.qemu.org/2018/01/04/spectre/
+
+# 处理器Meltdown/Spectre漏洞修复
+http://www.sohu.com/a/215894536_765820
+
+# 首发：Meltdown漏洞分析与实践
+http://mp.weixin.qq.com/s/zlspXeDGlAEzVsq2h6gg8w
+
+# Meltdown and Spectre
+https://meltdownattack.com/
+
+# 英特尔发现Spectre和Meltdown 补丁对性能影响程度为0-21%
+http://www.infoq.com/cn/news/2018/01/intel-spectre-performance
+
+# Protect against speculative execution side-channel vulnerabilities in Windows client
+https://support.microsoft.com/en-us/help/4073119/protect-against-speculative-execution-side-channel-vulnerabilities-in
+
+# Understanding Get-SpeculationControlSettings PowerShell script output
+https://support.microsoft.com/en-us/help/4074629/understanding-the-output-of-get-speculationcontrolsettings-powershell
+
+# Windows Server guidance to protect against the speculative execution side-channel vulnerabilities
+https://support.microsoft.com/en-us/help/4072698/windows-server-guidance-to-protect-against-the-speculative-execution
+
+# CentOS Linux Receives Security Updates Against Meltdown and Spectre Exploits
+http://news.softpedia.com/news/centos-linux-receives-security-updates-against-meltdown-and-spectre-exploits-519248.shtml
+
+# Protect your Windows devices against Spectre and Meltdown - Windows Help
+https://support.microsoft.com/en-us/help/4073757/protect-your-windows-devices-against-spectre-meltdown
+
+# Applying Windows Updates to a base WIM using DISM and Powershell
+https://blogs.technet.microsoft.com/configmgrdogs/2012/02/14/applying-windows-updates-to-a-base-wim-using-dism-and-powershell/
+
+# Security Vulnerability: "Meltdown" and "Spectre" side channel attacks against modern CPUs. | Support | SUSE
+https://www.suse.com/support/kb/doc/?id=7022512
+
+# Controlling the Performance Impact of Microcode and Security Patches for CVE-2017-5754 CVE-2017-5715 and CVE-2017-5753 using Red Hat Enterprise Linux Tunables - Red Hat Customer Portal
+https://access.redhat.com/articles/3311301#

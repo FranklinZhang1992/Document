@@ -6,6 +6,7 @@ https://technet.microsoft.com/en-us/library/ff716178.aspx
 
 # KMS Client Setup Keys
 https://technet.microsoft.com/en-us/library/jj612867(v=ws.11).aspx
+https://docs.microsoft.com/en-us/windows-server/get-started/kmsclientkeys
 
 # Disabling Automatic Updates-Windows Configurations How To
 https://www.manageengine.com/products/desktop-central/disabling-automatic-updates-how-to.html
@@ -15,3 +16,18 @@ http://smallvoid.com/article/winnt-services-regedit.html
 
 # The disk is offline because of policy set by an administrator
 http://www.happysysadm.com/2010/11/disk-is-offline-because-of-policy-set.html
+
+# Sysprep Process Overview | Microsoft Docs
+https://docs.microsoft.com/en-us/windows-hardware/manufacture/desktop/sysprep-process-overview
+
+# [Solved] Your PC ran into a problem and needs to restart - Driver Easy
+https://www.drivereasy.com/knowledge/solved-your-pc-ran-into-a-problem-and-needs-to-restart/
+
+# 驱动程序验证程序 (Windows Drivers)
+https://msdn.microsoft.com/library/windows/hardware/ff545448
+
+# 在 Visual Studio 中创建 Windows 服务应用程序 | Microsoft Docs
+https://docs.microsoft.com/zh-cn/dotnet/framework/windows-services/walkthrough-creating-a-windows-service-application-in-the-component-designer
+
+# How to Sysprep Windows Server 2008
+http://jameskovacs.com/2008/10/15/how-to-sysprep-windows-server-2008/

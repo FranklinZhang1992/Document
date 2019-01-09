@@ -15,3 +15,9 @@ http://wiki.libvirt.org/page/QEMUSwitchToLibvirt
 
 # KVM客户机添加virsh console虚拟终端支持及原理
 http://www.2cto.com/os/201205/130280.html
+
+# Open Virtual Machine Firmware (OVMF) Status Report
+http://www.linux-kvm.org/downloads/lersek/ovmf-whitepaper-c770f8c.txt
+
+# 迁移VMware虚拟机到KVM(3)–virt-v2v 迁移 VMware ESX 虚拟机的配置
+http://hz.togogo.net/BrainJam/wenxian/2013/0411/495.html

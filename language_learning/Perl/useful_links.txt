@@ -1,0 +1,5 @@
+# perl 基本语法介绍_基础教程
+http://www.jb51.net/article/30473.htm
+
+# Perl参考函数
+http://www.yiibai.com/perl/perl_function_references.html#perl_function_references

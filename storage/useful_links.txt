@@ -6,3 +6,45 @@ http://www.searchstorage.com.cn/showcontent_75947.htm
 
 # 全身心拥抱NAS，如何使用iSCSI Target服务？
 http://www.expreview.com/25412-all.html
+
+# 深入分析iSCSI协议的应用
+http://www.linkwan.com/gb/tech/htm/1282.htm
+
+# SAN网络存储共享软件全攻略
+http://www.sansky.net/article/2007-05-12-san-network-storage-sharing-software-place.html
+
+# iSCSI存储技术全攻略
+http://www.sansky.net/article/2007-12-03-iscsi-storage.html
+
+# 两种方法实现ISCSI Target
+http://www.sansky.net/article/2007-06-12-iscsi-target.html
+
+# 【存储部落】 | sansky的存储技术博客
+http://www.sansky.net/
+
+# iSCSI存储的3种连接方式
+http://www.sansky.net/article/2007-11-17-guide-11-iscsi-storage-of-three-kinds-of-connectivity.html
+
+# 什么是ISCSI存储
+http://www.sansky.net/article/2007-09-13-what-is-iscsi.html
+
+# ISCSI技术白皮书
+http://www.sansky.net/article/2007-06-12-iscsi-whitebook.html
+
+# ISCSI技术白皮书-2
+http://www.sansky.net/article/2007-06-12-iscsi-whitebook2.html
+
+# iSCSI存储技术
+http://wenku.baidu.com/link?url=1hVfu2fzddmSlZkn0El-be6SNLDWK1mLhe9_RvZJ2eeoyHB35u6hwExfY7ixX74xS3yPUnK_dbUg7Mk5IbXKAEypPGLeGA7BqUKBS6U-Ps_
+
+# 技术白皮书 - 解决方案
+http://www.h3c.com.cn/Solution/Multimedia_Communicate/Video_Surveillance_Storage/How_Do_I_Do_It/White_Paper/201008/686814_30004_0.htm
+
+# LUN mapping和LUN masking的区别及总结
+http://wenku.baidu.com/link?url=H0avwi2xFxMePeAT-ZYHNrXowCQfACylS1WoDTsGqeVW-dXanuKGpccHyVufGC31In07iWpEz9qbFh6U0rhWktLbVFiPvUFGy2wa7uMsZ6y
+
+# Centos 中的RAID详解
+http://www.centoscn.com/CentOS/help/2013/0907/1575.html
+
+# FC和iSCSI协议的分析比较(1)
+http://network.51cto.com/art/200608/29904.htm

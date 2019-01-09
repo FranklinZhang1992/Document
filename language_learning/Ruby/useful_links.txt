@@ -63,3 +63,12 @@ http://shouce.jb51.net/ruby/114.html
 
 # RubyGems 镜像 - 淘宝网
 https://ruby.taobao.org/
+
+# ruby字符串与各种进制之间的转换
+https://www.jianshu.com/p/6cf9dac63860
+
+# Ruby XML, XSLT 和 XPath 教程
+http://www.runoob.com/ruby/ruby-xml-xslt-xpath.html
+
+# Ruby中的inject
+https://biyeah.iteye.com/blog/1286449

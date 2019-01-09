@@ -1,0 +1,5 @@
+# WiX Toolset
+http://wixtoolset.org/
+
+# Should you run MSI or EXE Setup files?
+https://www.ghacks.net/2009/03/23/msi-or-exe-setup/

@@ -17,3 +17,12 @@ https://www.imooc.com/
 
 # ＳＭＡＲＴ原则
 http://www.douban.com/group/topic/2246902/
+
+# crontab执行时间计算 - 在线Crontab表达式时间验证工具 - 在线验证Crontab表达式工具
+http://www.atool.org/crontab.phps
+
+# Specify an SSH key for git push for a given domain - Stack Overflow
+http://stackoverflow.com/questions/7927750/specify-an-ssh-key-for-git-push-for-a-given-domain
+
+# git常用命令解释
+http://wenku.baidu.com/link?url=CHSE9yAjvubRF6mz-8zJENCpMeS-QKhiuD9f6g8Gvqjz6OzplJgK57OQHI2_KMSjnmEgswytdg5aYEDDz_NwqjvABCzR0l2qdoupQiTh2iS

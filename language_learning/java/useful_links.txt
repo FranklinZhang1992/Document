@@ -42,3 +42,39 @@ http://stackoverflow.com/questions/4687271/jax-rs-how-to-return-json-and-http-st
 
 # Swagger Core Jersey 2.X Project Setup 1.5 · swagger-api/swagger-core Wiki
 https://github.com/swagger-api/swagger-core/wiki/Swagger-Core-Jersey-2.X-Project-Setup-1.5#using-jersey-2-container-servlet-or-filter-with-webxml
+
+# Java程序执行Linux命令
+http://cache.baiducontent.com/c?m=9d78d513d99b12eb0bfa940f1a60d371695297153ec0a61768d5e35fe2104c31407192cd30521113d2b56b1600b83d2dfd813565407437b7eadff83acacb973f5fff3044710b873105a31ab8bc4032b023872a9dbb5ea7e4ff68d5e890c4de274ed7035b27d5e78b2d51559c33e71446bff1df55465c1bb0e73367ff526a7adf651be719aefd643941d2ad831d51c928d4601490a5&p=917dc64ad4925feb08e2977c0a5d9d&newp=9e759a46d4c433fc57efc0274749c4231610db2151d6d0136b82c825d7331b001c3bbfb423251200d4c37b600aa44258e8f231753d012ba3dda5c91d9fb4c57479fa&user=baidu&fm=sc&query=java+%D6%B4%D0%D0%CF%B5%CD%B3%C3%FC%C1%EE+%BB%B7%BE%B3%B1%E4%C1%BF&qid=a764104800000d27&p1=7
+
+# Java 执行系统命令
+https://www.cnblogs.com/bencakes/p/6139477.html
+
+# Runtime.getRuntime.exec()执行linux脚本导致程序卡死问题
+http://cache.baiducontent.com/c?m=9d78d513d98306f31eb6cb291a17a771192397624c82875368d5e308d4381d1a1831f4bb56351075c4c40c7001d85e5d9aa77c25661420c6df899f4aacf9d2757edf6675671df611558847f99c06318660ce55b3e95fa5adf1418eb38a808e0d0096044e6d8087d01c575f9d78f06360bef984184b0245a7ed3061f8537c23&p=9b60c64ad4d911a05bec953d495382&newp=c364c54ad5c240b140b8cc2d0214c1231610db2151d7db176b82c825d7331b001c3bbfb42325120fd1c5796700af4b58ebf43c7433012ba3dda5c91d9fb4c57479963f6128&user=baidu&fm=sc&query=Runtime%2EgetRuntime%28%29%2Eexec+vs+ProcessBuilder&qid=f5eab0e90000070f&p1=9
+
+# Spring Boot干货系列总纲
+http://tengj.top/2017/04/24/springboot0/
+
+# 【Java并发系列01】Thread及ThreadGroup杂谈
+https://www.cnblogs.com/yiwangzhibujian/p/6212104.html
+
+# ThreadPoolExecutor线程池原理及其execute方法(详解)
+http://www.jb51.net/article/116521.htm
+
+# Java Practices -> Beware of URL rewriting
+http://www.javapractices.com/topic/TopicAction.do?Id=226
+
+# 基于JavaMail的Java邮件发送：简单邮件发送
+https://blog.csdn.net/xietansheng/article/details/51673073
+
+# Java byte[]转二进制字符串,十六进制字符串的相互转换
+https://blog.csdn.net/qq969422014/article/details/52601615
+
+# Java 加解密技术系列之 PBE
+https://blog.csdn.net/happylee6688/article/details/44650517
+
+# GET和POST两种基本请求方法的区别
+https://www.cnblogs.com/logsharing/p/8448446.html
+
+# Apache Tomcat 7 (7.0.92) - SSL/TLS Configuration HOW-TO
+https://tomcat.apache.org/tomcat-7.0-doc/ssl-howto.html#Troubleshooting

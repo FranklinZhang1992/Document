@@ -66,3 +66,24 @@ http://cache.baiducontent.com/c?m=9d78d513d99f1efc1afa950e1a67a471695f97153dc0a1
 
 # 端口扫描之王——nmap入门精讲（一）
 http://cache.baiducontent.com/c?m=9f65cb4a8c8507ed19fa950d100b92235c4380146d8b804b2281d25f93130a1c187ba2fd3022665a8484223c56b20b41edf33575370922a09bbfd20c82e5866d72c8713b676c825663a30edfbf5153b237912afede12f0c9fa25e2afc5a4d5&p=83759a46d6c05afc57efc9364b498b&newp=8b2a972986cc42af5bb4c02b5b6497231610db2151d2d301298ffe0cc4241a1a1a3aecbf20201304d6c1776300a84c56e8f73676350834f1f689df08d2ecce7e43&user=baidu&fm=sc&query=%B6%CB%BF%DA%C9%A8%C3%E8&qid=eff1c19a00008068&p1=4
+
+# Linux netstat命令详解
+http://cache.baiducontent.com/c?m=9d78d513d99f16e919abc73819519738160ec6257e96c7140cc98e0dd6214c413037bfeb797f4545c4c50b365cf05409bfa871236d547ce2869bc81b87e0d67f32882537700184420fd113b2cb4726c5249459feaf6ebdfcaf6c&p=98769a478ad811a05bed9660490c8d&newp=813ed604a4904ead10bd9b7d0d14c4231610db2151d4d7176b82c825d7331b001c3bbfb423251207d2c77e6406ab4f5ee9f6317135012ba3dda5c91d9fb4c57479c0&user=baidu&fm=sc&query=netstat&qid=c55948df0001b965&p1=2
+
+# List of TCP and UDP port numbers
+https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers
+
+# exFAT support on CentOS 7
+https://bitsanddragons.wordpress.com/2017/09/25/exfat-support-on-centos-7/
+
+# Linux系统/bin,/usr/bin,/sbin,/usr/sbin及root - Linux操作系统：Ubuntu_Centos_Debian
+http://www.2cto.com/os/201307/231837.html
+
+# linux压缩与解压缩 tar命令
+http://cache.baiducontent.com/c?m=9d78d513d99d1af31fa7837e7c5084260e54f1744ad4c76574c3e23884105c550026bdb47d645646c4c40f7a1cff1701bfe73605340721a09bbfd91782a6c37b74d27a682543d11a05d46daccb4738917ecd0ff4ee5fb4fcab638eadd8d7de5352c8540f7a82f3885c0012ca64f71437e3a684&p=8e759a45d5c61eee06be9b7c4552cf&newp=cb72c64ad4934eaf5be8d060537a86231610db2151d7d215&user=baidu&fm=sc&query=linux+tar+%D1%B9%CB%F5&qid=97dcd1c50000344e&p1=2
+
+# Red Hat Customer Portal
+https://access.redhat.com/documentation/en-US/Red_Hat_Enterprise_Linux/6/html-single/V2V_Guide/index.html#chap-Introducing_V2V
+
+# ssh连接远程主机执行脚本的环境变量问题
+http://wenku.baidu.com/link?url=TLR-jt_WRjXA2HUn-twQugqnci6_hDr8bfL5BKHnwaJ2v31V4n4AI_5RGDY-aw-G43fA_1i8kZtvGd6VRuFa_YSI2Wu9iHFi3Q4et0Fvub_

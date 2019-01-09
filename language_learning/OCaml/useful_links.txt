@@ -1,0 +1,29 @@
+# Execute a system command
+http://rosettacode.org/wiki/Execute_a_system_command#OCaml
+
+# OCaml教程
+https://ocaml.org/learn/tutorials/index.zh.html
+
+# Ocaml编程速览
+http://bbs.9ria.com/thread-77807-1-1.html
+
+# Try OCaml
+http://try.ocamlpro.com/
+
+# Objective CAML Tutorial
+http://mirror.ocamlcore.org/ocaml-tutorial.org/
+
+# Table of Contents / Real World OCaml
+https://realworldocaml.org/v1/en/html/index.html
+
+# Ocaml学习笔记 语句
+http://cache.baiducontent.com/c?m=9d78d513d99e10fc07b3837e7c5680320d13c03d338d96533dc3923b8e790b1f1a33f4bb507351528fd27c105df80f41acaa7126775461edc49bd4578efbd4737ed67029264bc012498d58b2cf4724c32a965b&p=836dc54ad5c341f9199fc32d021490&newp=8b2a970287d25aeb0ebd9b7d0d1688231610db2151d4d11538858253d732&user=baidu&fm=sc&query=OCaml+ref&qid=eed5ef8400024b62&p1=1
+
+# OCaml Tutorials – OCaml
+http://ocaml.org/learn/tutorials/
+
+# Objective CAML系列教程
+http://shiningray.cn/docs/ocaml
+
+# The OCaml system, release 3.12
+http://caml.inria.fr/pub/distrib/ocaml-3.12/ocaml-3.12-refman.html
